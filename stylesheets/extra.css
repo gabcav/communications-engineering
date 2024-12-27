@@ -1,0 +1,68 @@
+/* Main background and text */
+body {
+  background-color: #102933 !important; /* Main background */
+  color: #ffffff !important; /* General text color */
+}
+
+/* Target H1 only on the homepage */
+.md-typeset h1:first-of-type {
+  color: #ffffff !important; /* Change to your desired color */
+  /*font-weight: bold;  Optional: make it bold */
+}
+
+/* Hide the title in the left navigation */
+.md-sidebar--primary .md-nav__title {
+  display: none !important;
+}
+
+/* Hide the Table of Contents */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
+:root {
+    /* Primary Colors */
+    --md-primary-fg-color:        #0D222D; /* Color of the main top bar */
+    /* Accent Colors */
+    --md-accent-fg-color: #cad860;         /* Accent color */
+      /* Footer */
+    --md-footer-fg-color: #ffffff; /* Footer text color */
+  }
+
+  /* Sidebar background and links */
+.md-sidebar {
+  background-color: #102933 !important; /* Sidebar background */
+}
+
+.md-sidebar .md-nav__link {
+  color: #ffffff !important; /* Color of the text in the side bars */
+}
+
+.md-sidebar .md-nav__link:hover {
+  color: #ffffff !important; /* Color when highligting the links */
+}
+
+.md-sidebar .md-nav__link--active {
+  color: #d2e93c !important; font-weight: bold; /* Color of active links */
+}
+
+/* Footer background and text */
+.md-footer {
+  background-color: #0D222D !important; /* Footer background */
+  color: #ffffff !important; /* Footer text color */
+}
+
+
+/* Links */
+a {
+  color: #ffffff !important; /* Hyperlink color */
+}
+
+a:hover {
+  color: #d2e93c !important; font-weight: bold; /* Hover link color */
+}
+
+ 
+
+
+
